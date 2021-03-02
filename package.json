@@ -1,36 +1,41 @@
 {
-  "name": "build-workflow-webpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exsit 1",
-    "start": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nsathya1990/build-workflow-webpack.git"
-  },
-  "author": "Sathyapriyan Chinnathangam Nadar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nsathya1990/build-workflow-webpack/issues"
-  },
-  "homepage": "https://github.com/nsathya1990/build-workflow-webpack#readme",
-  "devDependencies": {
-    "@babel/core": "^7.13.8",
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/preset-env": "^7.13.9",
-    "@babel/preset-react": "^7.12.13",
-    "@babel/preset-stage-2": "^7.8.3",
-    "babel-loader": "^8.2.2",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
-  },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
-  }
+    "name": "build-workflow-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exsit 1",
+        "start": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nsathya1990/build-workflow-webpack.git"
+    },
+    "author": "Sathyapriyan Chinnathangam Nadar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nsathya1990/build-workflow-webpack/issues"
+    },
+    "homepage": "https://github.com/nsathya1990/build-workflow-webpack#readme",
+    "browserslist": "> 1%, last 2 versions",
+    "devDependencies": {
+        "@babel/core": "^7.13.8",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/preset-env": "^7.13.9",
+        "@babel/preset-react": "^7.12.13",
+        "@babel/preset-stage-2": "^7.8.3",
+        "autoprefixer": "^10.2.4",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.1.1",
+        "postcss-loader": "^3.0.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.2"
+    },
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-router-dom": "^5.2.0"
+    }
 }
